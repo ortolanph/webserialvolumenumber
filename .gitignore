@@ -1,9 +1,16 @@
+# Idea directory
+.idea/
+
+# Maven template
+target/
+
+# Java Binaries
 *.class
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Package Files
 *.jar
 *.war
 *.ear
