@@ -1,8 +1,6 @@
 package org.wvsn.engine;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.time.LocalTime;
 
 public class VolumeSerialNumber {
     public String calculate(LocalDateTime timestamp) {

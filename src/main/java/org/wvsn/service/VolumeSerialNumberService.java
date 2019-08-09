@@ -1,6 +1,6 @@
 package org.wvsn.service;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import org.wvsn.beans.DateVSN;
 import org.wvsn.engine.VolumeSerialNumber;
 import org.wvsn.utils.RandomDateTimeGenerator;
@@ -8,7 +8,7 @@ import org.wvsn.utils.RandomDateTimeGenerator;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-@Component
+@Service
 public class VolumeSerialNumberService {
 
     public DateVSN fromDate(String date) {
