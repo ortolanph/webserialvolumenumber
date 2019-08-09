@@ -2,6 +2,14 @@
 
 A simple Serial Volume Number calculator.
 
+## Building
+
+```
+make clean
+make compile
+make run
+```
+
 ## Calculating the Volume Serial Number
 
 Usage:
